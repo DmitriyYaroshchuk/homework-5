@@ -1,8 +1,13 @@
 //   Task-1   //
 
 const maxFirstTask = 20;
-for (let i = 10; i < maxFirstTask; i++) {
-    console.log(i)
+for (let i = 10; i <= maxFirstTask; i++) {
+    if (i <= maxFirstTask - 1) {
+        console.log(i + ',')
+    }
+    else {
+        console.log(i + '')
+    }
 }
 
 
@@ -10,7 +15,7 @@ for (let i = 10; i < maxFirstTask; i++) {
 
 const maxSecondTask = 20;
 let square;
-for (let i = 10; i < maxSecondTask; i++) {
+for (let i = 10; i <= maxSecondTask; i++) {
     square = i * i
     console.log(square)
 }
@@ -28,7 +33,7 @@ for (let i = 1; i <= 10; i++) {
 
 const maxFourthTask = 15;
 let sumFourthTask = 0;
-for (let i = 1; i < maxFourthTask; i++) {
+for (let i = 1; i <= maxFourthTask; i++) {
     sumFourthTask = sumFourthTask + i;
 }
 console.log(sumFourthTask);
@@ -38,7 +43,7 @@ console.log(sumFourthTask);
 
 const maxFifthTask = 35;
 let multiple = 1;
-for(let i = 15; i < maxFifthTask; i++) {
+for(let i = 15; i <= maxFifthTask; i++) {
     multiple = multiple * i;
 }
 console.log(multiple);
@@ -48,7 +53,7 @@ console.log(multiple);
 
 const maxSixthTask = 500;
 let sumSixthTask = 0;
-for (let i = 1; i < maxSixthTask; i++) {
+for (let i = 1; i <= maxSixthTask; i++) {
     sumSixthTask = sumSixthTask + i;
 }
 console.log(sumSixthTask / 500);
@@ -58,7 +63,7 @@ console.log(sumSixthTask / 500);
 
 const maxSeventhTask = 80;
 let sumSeventhTask = 0;
-for (let i = 30; i < maxSeventhTask; i++) {
+for (let i = 30; i <= maxSeventhTask; i++) {
     if (i % 2 !== 0) {
         continue
     }
@@ -70,7 +75,7 @@ console.log(sumSeventhTask);
 // //   Task-8   //
 
 const maxEighthTask = 200;
-for (let i = 100; i < maxEighthTask; i++) {
+for (let i = 100; i <= maxEighthTask; i++) {
     if (i % 3 === 0) {
         console.log(i)
     }

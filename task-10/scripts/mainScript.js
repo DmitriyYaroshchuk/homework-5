@@ -1,8 +1,9 @@
 //   Task-1   //
 
 const maxFirstTask = 30;
-for (let i = 1; i < maxFirstTask; i+= 0.5) {
+for (let i = 1; i <= maxFirstTask; i+= 0.5) {
     console.log(i)
+    console.log('')
 }
 
 
@@ -29,7 +30,7 @@ for(let i = 1; i < maxThirdTask; i++) {
 
 // //   Task-4   //
 
-const numberFourthTask = 13; // 2,3,5,7 - Простые
+const numberFourthTask = 4; // 2,3,5,7 - Простые
 let condition = 0;
 for (let i = 2; i < numberFourthTask; i++) {
     if (numberFourthTask % i === 0){
@@ -38,10 +39,11 @@ for (let i = 2; i < numberFourthTask; i++) {
         break;
     }
 }
-if (condition === 0) {
-    console.log('Является простым')
+if (numberFourthTask === 1) {
+    console.log('1 Является не простым и не составным числом');
+} else if (condition === 0) {
+        console.log('Является простым')
 }
-
 
 
 // //   Task-5   //
