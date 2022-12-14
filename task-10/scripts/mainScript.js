@@ -30,7 +30,7 @@ for(let i = 1; i < maxThirdTask; i++) {
 
 // //   Task-4   //
 
-const numberFourthTask = 4; // 2,3,5,7 - Простые
+const numberFourthTask = 13; // 2,3,5,7 - Простые
 let condition = 0;
 for (let i = 2; i < numberFourthTask; i++) {
     if (numberFourthTask % i === 0){

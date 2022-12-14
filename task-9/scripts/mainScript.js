@@ -1,14 +1,21 @@
 //   Task-1   //
 
 const maxFirstTask = 20;
+const array = [];
 for (let i = 10; i <= maxFirstTask; i++) {
-    if (i <= maxFirstTask - 1) {
-        console.log(i + ',')
-    }
-    else {
-        console.log(i + '')
-    }
+    array.push(i);
 }
+console.log(array.join());
+
+// const maxFirstTask = 20;
+// for (let i = 10; i <= maxFirstTask; i++) {
+//     if (i <= maxFirstTask - 1) {
+//         console.log(i + ',')
+//     }
+//     else {
+//         console.log(i + '')
+//     }
+// }
 
 
 //   Task-2   //
